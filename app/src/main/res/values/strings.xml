@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">House Adventure</string>
+    <string name="item_name_hint">Enter an item name</string>
+</resources>
