@@ -9,10 +9,13 @@ import java.util.UUID;
 public class Item {
     private UUID mId;
     private String mName;
+    private String mDesc;
 
     public String getName() {
         return mName;
     }
+    public String getDesc() { return mDesc; }
+    public void setDesc(String desc) { mDesc = desc; }
 
     public void setName(String mName) {
         this.mName = mName;
